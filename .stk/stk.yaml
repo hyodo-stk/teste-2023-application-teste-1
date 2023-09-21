@@ -8,6 +8,7 @@ metadata:
   stack: python-stack@1.0.0
 spec:
   type: app
+  app-id: 01HAWA6H41YRP0H56TN8SHXQV7
   plugins:
     - name: sandbox-hy-python/python-stack@1.0.0/hello-python@0.0.1
       alias: hello-python-1695314818579
