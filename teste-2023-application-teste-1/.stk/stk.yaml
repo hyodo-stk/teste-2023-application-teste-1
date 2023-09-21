@@ -1,0 +1,27 @@
+schema-version: v2
+kind: manifest
+metadata:
+  name: teste-2023-application-teste-1
+  description: https://github.com/hyodo-stk/teste-2023-application-teste-1
+  starter: sandbox-hy-python/python-stack@1.0.0/hello-starter-python
+  stack-version-id: 01HAW2GP1S64GNDDDTQ9JZJDMB
+  stack: python-stack@1.0.0
+spec:
+  type: app
+  plugins:
+    - name: sandbox-hy-python/python-stack@1.0.0/hello-python@0.0.1
+      alias: hello-python-1695314818579
+      plugin-version-id: 01H84V160Q3YVZD657CCBH5XBD
+      stack-version-id: 01HAW2GP1S64GNDDDTQ9JZJDMB
+      type: app
+      inputs:
+        name: John
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs: {}
+  global-computed-inputs: {}
+  repository: https://github.com/hyodo-stk/teste-2023-application-teste-1
